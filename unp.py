@@ -18,7 +18,7 @@ def parse_xml(xml):
         polnoe_nazvanie_organizacii = child.findtext('VNAIMP')
         print('Ваше УНП ' + unp )
         print('Полное наименование: ' + polnoe_nazvanie_organizacii )
-        print('Test')
+        
 
 
 
